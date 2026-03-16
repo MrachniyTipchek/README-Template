@@ -43,6 +43,7 @@ This repository is a template for README and related documentation that you can 
 ![Main logo](images/logo.png)
 
 </details>
+
 ---
 
 ### Usage
