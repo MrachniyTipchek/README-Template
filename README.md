@@ -110,13 +110,13 @@ README_RU.md # Русский README
 - **Автор**: https://github.com/MrachniyTipchek
 
 <!-- Бейджи -->
-[stars-shield]: https://img.shields.io/github/stars/MrachniyTiphek/README-Template?style=for-the-badge
-[forks-shield]: https://img.shields.io/github/forks/MrachniyTiphek/README-Template?style=for-the-badge
-[contributors-shield]: https://img.shields.io/github/contributors/MrachniyTiphek/README-Template?style=for-the-badge
-[license-shield]: https://img.shields.io/github/license/MrachniyTiphek/README-Template?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/MrachniyTipchek/README-Template?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/MrachniyTipchek/README-Template?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/MrachniyTipchek/README-Template?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/MrachniyTipchek/README-Template?style=for-the-badge
 
 [languages-shield]: https://img.shields.io/badge/Languages-LANG1%20%7C%20LANG2%20%7C%20LANG3-blue?style=for-the-badge
-[ci-shield]: https://img.shields.io/github/actions/workflow/status/MrachniyTiphek/README-Template/WORKFLOW_FILE.yml?style=for-the-badge&label=CI
+[ci-shield]: https://img.shields.io/github/actions/workflow/status/MrachniyTipchek/README-Template/WORKFLOW_FILE.yml?style=for-the-badge&label=CI
 [actions-tool-shield]: https://img.shields.io/badge/Actions%20tool-TOOL-blueviolet?style=for-the-badge
-[prs-shield]: https://img.shields.io/github/issues-pr/MrachniyTiphek/README-Template?style=for-the-badge
-[issues-shield]: https://img.shields.io/github/issues/MrachniyTiphek/README-Template?style=for-the-badge
+[prs-shield]: https://img.shields.io/github/issues-pr/MrachniyTipchek/README-Template?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/MrachniyTipchek/README-Template?style=for-the-badge
