@@ -7,18 +7,20 @@
 <!-- Баннер: -->
 ![Cover](images/logo.png)
 
-<!-- Краткое описание проекта -->
-Шаблон документации к проектам для GitHub
-
 ---
 
 <details>
   <summary><strong>Оглавление</strong></summary>
 
 - **[Описание](#описание)**
-- **[Как использовать](#как-использовать)**
-- **[Основные функции](#основные-функции)**
+- **[Использование](#использование)**
+  - [Установка](#установка)
+  - [Основные функции](#основные-функции)
+  - [Примечания](#примечания)
 - **[Разработка](#разработка)**
+  - [Структура проекта](#структура-проекта)
+  - [Зависимости](#зависимости)
+  - [Состояние проекта](#состояние-проекта)
 - **[Вклад](#вклад)**
 - **[Лицензия](#лицензия)**
 - **[Контакты](#контакты)**
@@ -27,16 +29,16 @@
 
 ---
 
-## Описание
+### Описание
 
 <!-- Основное описание проекта -->
 Это шаблон c примером README.md и другой документации к моим проектам.
 
 ---
 
-## Использование
+### Использование
 
-### Установка
+#### Установка
 1. Клонируйте репозиторий:
 
 ```bash
@@ -51,25 +53,23 @@ cd README-Template
 
 ---
 
-### Основные функции
+#### Основные функции
 
-Основные функции:
+|         Функция          |                                    Описание                                    |
+| :----------------------: | :-----------------------------------------------------------------------------: |
+|      Функция 1           |                         Описание 1: расширенное описание                        |
+|      Функция 2           |                         Описание 2: расширенное описание                        |
+|      Функция 3           |                         Описание 3: расширенное описание                        |
 
-| Функция | Описание |
-| --- | --- |
-| Функция 1 | Описание 1 |
-| Функция 2 | Описание 2 |
-| Функция 3 | Описание 3 |
-
-### Примечания
+#### Примечания
 
 ---
 
-## Разработка
+### Разработка
 
-![Languages][languages-shield] ![Build status][ci-shield] ![Actions tool][actions-tool-shield]
+![Languages][languages-shield] ![Build status][build-status-shield] ![Build tool][build-tool-shield]
 
-### Структура проекта:
+#### Структура проекта:
 
 ```text
 images/      # Изображения
@@ -79,12 +79,12 @@ README.md    # README
 README_RU.md # Русский README
 ```
 
-### Зависимости:
+#### Зависимости:
 
 1. ...
 2. ...
 
-### Состояние проекта:
+#### Состояние проекта:
 
 - Статус - Active
 - Последняя версия девбилд - None
@@ -92,20 +92,21 @@ README_RU.md # Русский README
 
 ---
 
-## Вклад
+### Вклад
 
 ![Open issues][issues-shield] ![Open PRs][prs-shield]
 
+Создавайте Issue о найденных багах, форкните репозиторий и внесите изменения, после чего создайте Pull Request для слияния кода
 ---
 
-## Лицензия
+### Лицензия
 
 Проект распространяется под лицензией **[MIT](LICENSE)**.  
 <!-- При использовании чужого кода добавьте сообщение об оригинальных авторах -->
 
 ---
 
-## Контакты
+### Контакты
 
 - **Автор**: https://github.com/MrachniyTipchek
 
@@ -115,8 +116,8 @@ README_RU.md # Русский README
 [contributors-shield]: https://img.shields.io/github/contributors/MrachniyTipchek/README-Template?style=for-the-badge
 [license-shield]: https://img.shields.io/github/license/MrachniyTipchek/README-Template?style=for-the-badge
 
-[languages-shield]: https://img.shields.io/badge/Languages-LANG1%20%7C%20LANG2%20%7C%20LANG3-blue?style=for-the-badge
-[ci-shield]: https://img.shields.io/github/actions/workflow/status/MrachniyTipchek/README-Template/WORKFLOW_FILE.yml?style=for-the-badge&label=CI
-[actions-tool-shield]: https://img.shields.io/badge/Actions%20tool-TOOL-blueviolet?style=for-the-badge
+[languages-shield]: https://img.shields.io/badge/Languages-Markdown%20%7C%20Shell-blue?style=for-the-badge
+[build-status-shield]: https://img.shields.io/github/actions/workflow/status/MrachniyTipchek/README-Template/WORKFLOW_FILE.yml?style=for-the-badge&label=Build%20status
+[build-tool-shield]: https://img.shields.io/badge/Build%20tool-None-blueviolet?style=for-the-badge
 [prs-shield]: https://img.shields.io/github/issues-pr/MrachniyTipchek/README-Template?style=for-the-badge
 [issues-shield]: https://img.shields.io/github/issues/MrachniyTipchek/README-Template?style=for-the-badge
