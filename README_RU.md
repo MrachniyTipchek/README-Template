@@ -1,6 +1,9 @@
 <!-- Бейджи статистики и лицензия (при необходимости замените на свои): -->
 ![Stars][stars-shield] ![Forks][forks-shield] ![Contributors][contributors-shield] ![License][license-shield] 
 
+<!-- Project title -->
+## README-Template
+
 <!-- Баннер проекта (можно заменить своим логотипом или картинкой): -->
 ![Cover](images/logo.png)
 
