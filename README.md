@@ -1,10 +1,14 @@
-![Stars][stars-shield] ![Forks][forks-shield] ![Contributors][contributors-shield] ![License][license-shield]
+<!-- Бейджи статистики и лицензии: -->
+![Stars][stars-shield] ![Forks][forks-shield] ![Contributors][contributors-shield] ![License][license-shield] 
 
+<!-- Переключение языка -->
 [RU](README_RU.md) / EN
 
-![Cover](images/ffff.png)
+<!-- Баннер: -->
+![Cover](images/logo.png)
 
-Краткое, но привлекательное описание проекта: 1–2 предложения о том, **что делает ваш проект**, **для кого он**, и **какую проблему решает**. Замените этот текст на описание именно вашего репозитория.
+<!-- Краткое описание проекта -->
+Шаблон документации к проектам для GitHub
 
 ---
 
@@ -25,112 +29,87 @@
 
 ## Описание
 
-Здесь напишите основное описание вашего проекта:
-
-- Для чего он?
-- Какие задачи решает?
-- Для кого предназначен?
-- Чем отличается от аналогов?
+<!-- Основное описание проекта -->
+Это шаблон c примером README.md и другой документации к моим проектам.
 
 ---
 
-## Как использовать
+## Использование
 
-Опишите как пользователю запустить ваш проект шаг за шагом:
-
+### Установка
 1. Клонируйте репозиторий:
 
 ```bash
-git clone https://github.com/ВАШ_АККАУНТ/ВАШ_ПРОЕКТ.git
-cd ВАШ_ПРОЕКТ
+git clone https://github.com/othneildrew/Best-README-Template.git
 ```
 
-2. Установите зависимости:
+2. Перейдите в директорию проекта:
 
 ```bash
-pip install -r requirements.txt
-```
-
-3. Запустите `main.py`:
-
-```bash
-python main.py
-```
-
-4. Добавьте сюда следующие шаги, если они нужны для вашего проекта:
-
-```text
-4. ...
-5. ...
+cd README-Template
 ```
 
 ---
 
-## Основные функции
+### Основные функции
 
-Основные функции вашего проекта можно красиво оформить в виде таблицы:
+Основные функции:
 
 | Функция | Описание |
 | --- | --- |
-| Функция 1 | Коротко опишите, что делает функция |
-| Функция 2 | Коротко опишите, что делает функция |
-| Функция 3 | Коротко опишите, что делает функция |
+| Функция 1 | Описание 1 |
+| Функция 2 | Описание 2 |
+| Функция 3 | Описание 3 |
+
+### Примечания
 
 ---
 
 ## Разработка
 
+![Languages][languages-shield] ![Build status][ci-shield] ![Actions tool][actions-tool-shield]
+
+### Структура проекта:
+
 ```text
-images/
-  logo.png
-LICENSE
-README.md
-README_RU.md
-src/
-tests/
+images/      # Изображения
+  logo.png   # Лого
+LICENSE      # Файл лицензии
+README.md    # README
+README_RU.md # Русский README
 ```
 
-- ![Languages][languages-shield]
-- ![Build status][ci-shield]
-- ![Actions tool][actions-tool-shield]
+### Зависимости:
 
-Requierements:
-
-1. Добавьте сюда зависимости для проекта
+1. ...
 2. ...
 
-Состояние проекта:
+### Состояние проекта:
 
-- Статус -
-- Последняя версия девбилд -
-- Последняя стабильная версия -
+- Статус - Active
+- Последняя версия девбилд - None
+- Последняя стабильная версия - None
 
 ---
 
 ## Вклад
 
-- ![Open issues][issues-shield]
-- ![Open PRs][prs-shield]
+![Open issues][issues-shield] ![Open PRs][prs-shield]
 
 ---
 
 ## Лицензия
 
 Проект распространяется под лицензией **[MIT](LICENSE)**.  
-Вы можете свободно использовать, изменять и распространять код в соответствии с условиями лицензии.
-
-Если ваш проект основан на другом репозитории или использует чужой код, добавьте сюда информацию об оригинальных авторах и ссылку на источник.
+<!-- При использовании чужого кода добавьте сообщение об оригинальных авторах -->
 
 ---
 
 ## Контакты
 
-- **Автор**: укажите своё имя или никнейм.
-- **GitHub**: ссылка на ваш профиль или организацию.
-- **Связь**: добавьте удобный способ связи (email, Telegram, ссылка на форму обратной связи).
+- **Автор**: https://github.com/MrachniyTipchek
 
-Также вы всегда можете оставить вопрос или предложение через вкладку **Issues** в GitHub.
-
+<!-- Бейджи -->
 [stars-shield]: https://img.shields.io/github/stars/MrachniyTiphek/README-Template?style=for-the-badge
 [forks-shield]: https://img.shields.io/github/forks/MrachniyTiphek/README-Template?style=for-the-badge
 [contributors-shield]: https://img.shields.io/github/contributors/MrachniyTiphek/README-Template?style=for-the-badge
