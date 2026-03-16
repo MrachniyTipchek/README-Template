@@ -1,4 +1,4 @@
-![GitHub Repo stars](https://img.shields.io/github/stars/USER/REPO?style=for-the-badge) ![GitHub forks](https://img.shields.io/github/forks/USER/REPO?style=for-the-badge) ![GitHub contributors](https://img.shields.io/github/contributors/USER/REPO?style=for-the-badge) ![GitHub repo views](https://komarev.com/ghpvc/?username=USER&label=VIEWS&style=for-the-badge) ![License](https://img.shields.io/github/license/USER/REPO?style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/USER/REPO?style=for-the-badge) ![GitHub forks](https://img.shields.io/github/forks/USER/REPO?style=for-the-badge) ![GitHub contributors](https://img.shields.io/github/contributors/USER/REPO?style=for-the-badge) ![License](https://img.shields.io/github/license/USER/REPO?style=for-the-badge)
 
 RU/EN
 
