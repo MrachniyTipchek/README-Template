@@ -1,160 +1,160 @@
-<!-- Бейджи статистики и лицензия (при необходимости замените на свои): -->
+<!-- Stats and license badges (replace with your own if needed): -->
 ![Stars][stars-shield] ![Forks][forks-shield] ![Contributors][contributors-shield] ![License][license-shield] 
 
 
-<!-- Баннер проекта (можно заменить своим логотипом или картинкой): -->
+<!-- Project banner (you can replace it with your own logo or image): -->
 ![Cover](images/logo.png)
 
-<!-- Свернутое оглавление для быстрой навигации по документу -->
+<!-- Collapsible table of contents for quick navigation -->
 <details>
-  <summary><strong>Оглавление</strong></summary>
+  <summary><strong>Table of Contents</strong></summary>
 
-- **[Описание](#описание)**
-- **[Использование](#использование)**
-  - [Установка](#установка)
-  - [Основные функции](#основные-функции)
-  - [Примечания](#примечания)
-- **[Разработка](#разработка)**
-  - [Структура проекта](#структура-проекта)
-  - [Зависимости](#зависимости)
-  - [Переменные и конфигурации](#переменные-и-конфигурации)
-  - [Состояние проекта](#состояние-проекта)
-- **[Вклад](#вклад)**
+- **[Overview](#overview)**
+- **[Usage](#usage)**
+  - [Installation](#installation)
+  - [Key Features](#key-features)
+  - [Notes](#notes)
+- **[Development](#development)**
+  - [Project Structure](#project-structure)
+  - [Dependencies](#dependencies)
+  - [Environment Variables & Configuration](#environment-variables--configuration)
+  - [Project Status](#project-status)
+- **[Contributing](#contributing)**
   - [Roadmap](#roadmap)
-- **[Лицензия](#лицензия)**
-- **[Контакты](#контакты)**
+- **[License](#license)**
+- **[Contacts](#contacts)**
 
 </details>
 
-<!-- Переключатель языка (Удалите, если документация только на одном языке) -->
-[RU](README_RU.md) / EN
+<!-- Language switcher (remove if you only use one language) -->
+EN / [RU](README_RU.md)
 
 ---
 
-### Описание
+### Overview
 
-<!-- Емкое описание проекта. Переформулируйте под свой репозиторий. -->
-Этот репозиторий — шаблон README и сопутствующей документации, который можно быстро скопировать в новый проект и адаптировать под свои задачи.
+<!-- Short, focused project description. Rephrase it for your repository. -->
+This repository is a template for README and related documentation that you can quickly copy into a new project and adapt to your needs.
 
-<!-- Свернутый блок с скриншотами -->
+<!-- Collapsible block with example screenshots. Replace images if needed. -->
 <details>
-  <summary><strong>Скриншоты</strong></summary>
+  <summary><strong>Screenshots</strong></summary>
 
-- Скриншот 1: краткое описание ситуации (например, основной экран, CLI‑команда и т.п.).
-- Скриншот 2: еще один ключевой сценарий.
-- При необходимости добавьте GIF с короткой демонстрацией.
+![Main logo](images/logo.png)
 
 </details>
 ---
 
-### Использование
+### Usage
 
-<!-- Базовая инструкция по локальному запуску/установке. Замените команды на актуальные для вашего проекта. -->
-#### Установка
-1. Клонируйте репозиторий:
+<!-- Basic local setup/run instructions. Replace commands with ones relevant to your project. -->
+#### Installation
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/MrachniyTipchek/README-Template.git
 ```
 
-2. Перейдите в директорию проекта:
+2. Go to the project directory:
 
 ```bash
 cd README-Template
 ```
-3. Настройте конфигурацию в `.env` файле (см. [раздел «Переменные и конфигурации»](#переменные-и-конфигурации)).
+3. Configure settings in the `.env` file (see [Environment Variables & Configuration](#environment-variables--configuration)).
 ---
 
-<!-- Раздел для наглядного перечисления ключевых возможностей проекта -->
-#### Основные функции
+<!-- Section to list key project features in a compact way -->
+#### Key Features
 
-| Функция              | Описание                                                                 |
-| :------------------- | :---------------------------------------------------------------------- |
-| Основная возможность | Коротко, что именно делает ваш проект                                   |
-| Доп. функция 1       | Чем она полезна пользователю                                            |
-| Доп. функция 2       | Любые другие особенности, которые стоит выделить                        |
+| Feature             | Description                                                              |
+| :------------------ | :----------------------------------------------------------------------- |
+| Main feature        | Briefly describe what your project does                                  |
+| Extra feature 1     | Why it is useful for the user                                            |
+| Extra feature 2     | Any other aspect worth highlighting                                      |
 
-#### Примечания
+#### Notes
 
-<!-- Краткие подсказки и важные детали использования для пользователей -->
-- При необходимости укажите минимальные системные требования.
-- Добавьте особенности конфигурации или ограничения, о которых важно знать заранее.
+<!-- Short tips and important usage details for end users -->
+- Specify minimum system requirements if needed.
+- Add any configuration specifics or limitations users should know in advance.
 
 ---
 
-### Разработка
+### Development
 
 
-<!-- Технические бейджи для раздела разработки (при необходимости настройте под свой стек и CI) -->
+<!-- Technical badges for the development section (adjust for your stack and CI if needed) -->
 ![Languages][languages-shield] ![Build status][build-status-shield] ![Build tool][build-tool-shield]
 
-<!-- Структура проекта в виде древа. Обновите под свой репозиторий. -->
-#### Структура проекта
+<!-- Project structure as a tree. Update it for your repository. -->
+#### Project Structure
 
 ```text
-images/      # Изображения
-  logo.png   # Лого
-LICENSE      # Файл лицензии
+images/      # Images
+  logo.png   # Logo
+LICENSE      # License file
 README.md    # README
-README_RU.md # Русский README
+README_RU.md # Russian README
 ```
-<!-- Основные зависимости или инструменты, без которых проект не собирается/не запускается -->
-#### Зависимости
+<!-- Main dependencies or tools required to build/run the project -->
+#### Dependencies
 
-1. Основная зависимость или фреймворк (версия)
-2. Инструменты сборки/тестирования (по необходимости)
+1. Main dependency or framework (with version)
+2. Build/testing tools (if applicable)
 
-#### Переменные и конфигурации
+<!-- Table with main environment variables and application settings -->
+#### Environment Variables & Configuration
 
-| Переменная              | Значение по умолчанию | Описание                                   |
-| :---------------------- | :-------------------- | :----------------------------------------- |
-| `APP_ENV`               | `development`         | Режим работы приложения                    |
-| `APP_PORT`              | `3000`                | Порт, на котором запускается сервис        |
-| `APP_LOG_LEVEL`         | `info`                | Уровень логирования                        |
-| `APP_FEATURE_FLAG_X`    | `false`               | Переключатель экспериментальной функциональности |
+| Variable               | Default value         | Description                                |
+| :--------------------- | :-------------------- | :----------------------------------------- |
+| `APP_ENV`              | `development`         | Application runtime mode                   |
+| `APP_PORT`             | `3000`                | Port the service listens on                |
+| `APP_LOG_LEVEL`        | `info`                | Logging level                              |
+| `APP_FEATURE_FLAG_X`   | `false`               | Toggle for experimental functionality      |
 
-Краткая инструкция:
+Quick guide:
 
-1. Создайте локальный `.env` на основе `.env.example` (если он есть).
-2. Заполните переменные под свое окружение.
-3. Не коммитьте файлы с секретами и персональными токенами.
+1. Create a local `.env` file based on `.env.example` (if present).
+2. Fill in variables according to your environment.
+3. Do not commit files containing secrets or personal tokens.
 
-<!-- Краткое описание текущего состояния и релизной политики проекта -->
-#### Состояние проекта
+<!-- Short description of current project state and release policy -->
+#### Project Status
 
-- Статус: активная разработка
-- Последняя dev-версия: не опубликована
-- Последняя стабильная версия: не опубликована
+- Status: active development
+- Latest dev version: not published
+- Latest stable version: not published
 
 ---
 
-### Вклад
+### Contributing
 
 ![Open issues][issues-shield] ![Open PRs][prs-shield]
 
-<!-- Простые и понятные правила участия в развитии проекта -->
-Если вы нашли ошибку, создайте Issue с максимально понятным описанием проблемы по форме.
-Хотите предложить улучшение — форкните репозиторий, внесите изменения и отправьте Pull Request.
+<!-- Simple and clear rules for contributing to the project -->
+If you find a bug, please open an Issue with a clear description of the problem.  
+If you want to propose an improvement, fork the repository, make your changes, and open a Pull Request.
 
+<!-- Short roadmap for the template or a concrete project based on it -->
 #### Roadmap
 
-- [ ] Добавить англоязычную версию README.
-- [ ] Расширить примеры использования и конфигурации.
-- [ ] Описать типичный workflow (release, CI, code review) для проектов, использующих этот шаблон.
-- [ ] Заменить заглушки в разделах под конкретный проект.
+- [ ] Add an English version of the README.
+- [ ] Extend usage and configuration examples.
+- [ ] Describe a typical workflow (release, CI, code review) for projects using this template.
+- [ ] Replace placeholder sections with project‑specific information.
 ---
 
-### Лицензия
+### License
 
-Проект распространяется под лицензией **[MIT](LICENSE)**.  
-<!-- При использовании чужого кода добавьте сообщение об оригинальных авторах -->
+This project is distributed under the **[MIT](LICENSE)** license.  
+<!-- If you use third-party code, mention the original authors here -->
 
 ---
 
-### Контакты
+### Contacts
 
-<!-- Укажите автора и удобные способы связи (GitHub, почта, сайт и т.п.) -->
-- **Автор**: https://github.com/MrachniyTipchek
+<!-- Specify the author and convenient contact methods (GitHub, email, website, etc.) -->
+- **Author**: https://github.com/MrachniyTipchek
 
 <!-- Бейджи -->
 [stars-shield]: https://img.shields.io/github/stars/MrachniyTipchek/README-Template?style=for-the-badge
