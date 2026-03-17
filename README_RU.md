@@ -66,8 +66,6 @@ cd README-Template
 
 3. Настройте конфигурацию в файле `.env` (см. раздел [«Переменные окружения и конфигурация»](#переменные-окружения-и-конфигурация)).
 
----
-
 <!-- Раздел для наглядного перечисления ключевых возможностей проекта -->
 #### Ключевые возможности
 
@@ -167,7 +165,6 @@ README_RU.md # README на русском
 [forks-shield]: https://img.shields.io/github/forks/MrachniyTipchek/README-Template?style=for-the-badge
 [contributors-shield]: https://img.shields.io/github/contributors/MrachniyTipchek/README-Template?style=for-the-badge
 [license-shield]: https://img.shields.io/github/license/MrachniyTipchek/README-Template?style=for-the-badge
-
 [languages-shield]: https://img.shields.io/badge/Languages-Markdown%20%7C%20Shell-blue?style=for-the-badge
 [build-status-shield]: https://img.shields.io/github/actions/workflow/status/MrachniyTipchek/README-Template/WORKFLOW_FILE.yml?style=for-the-badge&label=Build%20status
 [build-tool-shield]: https://img.shields.io/badge/Build%20tool-None-blueviolet?style=for-the-badge
