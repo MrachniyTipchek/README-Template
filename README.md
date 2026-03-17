@@ -64,7 +64,7 @@ git clone https://github.com/MrachniyTipchek/README-Template.git
 cd README-Template
 ```
 3. Configure settings in the `.env` file (see [Environment Variables & Configuration](#environment-variables--configuration)).
----
+
 
 <!-- Section to list key project features in a compact way -->
 #### Key Features
