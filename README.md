@@ -28,9 +28,6 @@
 
 </details>
 
-<!-- Language switcher (remove if you only use one language) -->
-EN / [RU](README_RU.md)
-
 ---
 
 ### Overview
