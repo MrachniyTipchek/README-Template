@@ -1,0 +1,84 @@
+name: Bug report
+description: Report something that does not work as documented or as intended.
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug.
+
+        Before submitting, search the [**Issues**](/issues) tab for duplicates. Attach **screenshots**, **screen recordings**, or **log files** when they help explain the problem (drag files into the issue or paste them below).
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Minimal steps that always (or often) trigger the bug.
+      placeholder: |
+        1. …
+        2. …
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happened instead, including any error messages.
+      placeholder: Describe what you observed.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What you expected to happen.
+      placeholder: Describe the correct or desired outcome.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs, stack trace, or media
+      description: Paste logs or stack traces in a fenced code block. Link or attach videos if steps alone are not enough.
+      placeholder: Paste logs, command output, or stack traces here.
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Workarounds, related issues, or anything else that helps triage.
+      placeholder: Optional notes.
+    validations:
+      required: false
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: |
+        Examples:
+        - **OS**: Ubuntu 22.04
+        - **Version**: v1.2.3 (or commit SHA)
+        - **Runtime**: Node 20, Python 3.12, browser name/version for web apps
+      placeholder: |
+        - OS:
+        - Version / commit:
+        - Runtime / browser:
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      description: Required checks help keep signal high and speed up triage.
+      options:
+        - label: I have searched existing issues and did not find a duplicate of this report
+          required: true
+        - label: I am using the latest release (or the latest commit on the default branch, if you build from source)
+          required: true
+        - label: I have installed all required dependencies and followed the documented setup
+          required: true
+        - label: I have read and agree to follow this project's [Code of Conduct](CODE_OF_CONDUCT.md)
+          required: true
