@@ -5,7 +5,7 @@
 ## README-Template
 
 <!-- Project banner (you can replace it with your own logo or image): -->
-![Cover](images/logo.png)
+![Cover](.github/images/logo.png)
 
 <!-- Collapsible table of contents for quick navigation -->
 <details>
@@ -39,7 +39,7 @@ This repository is a template for README and related documentation that you can 
 <details>
   <summary><strong>Screenshots</strong></summary>
 
-![Main logo](images/logo.png)
+![Main logo](.github/images/logo.png)
 
 </details>
 
@@ -94,7 +94,6 @@ images/      # Images
   logo.png   # Logo
 LICENSE      # License file
 README.md    # README
-README_RU.md # Russian README
 ```
 <!-- Main dependencies or tools required to build/run the project -->
 #### Dependencies
