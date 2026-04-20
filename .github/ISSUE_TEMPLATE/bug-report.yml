@@ -12,23 +12,29 @@ body:
       placeholder: A clear, concise description of the problem.
     validations:
       required: true
-  - type: upload
+  - type: textarea
     id: evidence
     attributes:
       label: Screenshots, screen recording, or logs
-      description: Optional but strongly encouraged. Attach images, a short recording, a crash log, or a text log file.
+      description: Optional but strongly encouraged. Paste error output, stack traces, or relevant log lines. Add links to images or recordings, or describe what you would show in a screenshot.
+      placeholder: Paste logs or traces here. Add URLs or short descriptions for visuals if needed.
+      value: |
+        Logs / console / stack trace:
+        
+
+        Links or notes for screenshots or recordings:
+        
     validations:
       required: false
-      accept: ".png,.jpg,.jpeg,.gif,.webp,.log,.txt,.mp4,.webm,.zip"
   - type: textarea
     id: repro
     attributes:
       label: Steps to reproduce
       description: List the steps so others can reproduce the issue.
-      value: |
-        1.
-        2.
-        3.
+      placeholder: |
+        Starting point (screen, URL, command, or state):
+        Actions you take in order:
+        What you observe when the bug appears:
     validations:
       required: true
   - type: textarea
