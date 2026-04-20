@@ -84,7 +84,7 @@ cd README-Template
 
 
 <!-- Technical badges for the development section (adjust for your stack and CI if needed) -->
-![Languages][languages-shield] ![Build status][build-status-shield] ![Build tool][build-tool-shield]
+![Languages][languages-shield] ![Build tool][build-tool-shield]
 
 <!-- Project structure as a tree. Update it for your repository. -->
 #### Project Structure
@@ -155,13 +155,12 @@ This project is distributed under the **[MIT](LICENSE)** license.
 <!-- Specify the author and convenient contact methods (GitHub, email, website, etc.) -->
 - **Author**: https://github.com/MrachniyTipchek
 
-<!-- Бейджи -->
+<!-- Badges -->
 [stars-shield]: https://img.shields.io/github/stars/MrachniyTipchek/README-Template?style=for-the-badge
 [forks-shield]: https://img.shields.io/github/forks/MrachniyTipchek/README-Template?style=for-the-badge
 [contributors-shield]: https://img.shields.io/github/contributors/MrachniyTipchek/README-Template?style=for-the-badge
 [license-shield]: https://img.shields.io/github/license/MrachniyTipchek/README-Template?style=for-the-badge
 [languages-shield]: https://img.shields.io/badge/Languages-Markdown%20%7C%20Shell-blue?style=for-the-badge
-[build-status-shield]: https://img.shields.io/github/actions/workflow/status/MrachniyTipchek/README-Template/WORKFLOW_FILE.yml?style=for-the-badge&label=Build%20status
 [build-tool-shield]: https://img.shields.io/badge/Build%20tool-None-blueviolet?style=for-the-badge
 [prs-shield]: https://img.shields.io/github/issues-pr/MrachniyTipchek/README-Template?style=for-the-badge
 [issues-shield]: https://img.shields.io/github/issues/MrachniyTipchek/README-Template?style=for-the-badge
