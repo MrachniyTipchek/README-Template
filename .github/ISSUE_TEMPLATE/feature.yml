@@ -1,0 +1,42 @@
+name: Feature request
+description: Suggest an idea or improvement for this project.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Feature description
+      description: What you want to add or change, how it would be used, and which problems or gaps it addresses.
+      placeholder: Describe the functionality and the use cases.
+    validations:
+      required: true
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Implementation and testing ideas
+      description: Optional. If you have ideas for how this could be built or verified in this project, share them here. Skip this section if you are unsure or are not contributing as a developer.
+      placeholder: Leave blank if not applicable.
+    validations:
+      required: false
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation and benefits
+      description: Why this belongs in this project, what advantages it brings, and what motivates the request.
+      placeholder: Explain the value for users and maintainers.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      description: Please confirm the following before submitting.
+      options:
+        - label: I have read the documentation and explored the project and did not find this functionality already present.
+          required: true
+        - label: I searched existing issues and did not find an open or closed duplicate of this request.
+          required: true
+        - label: I did not find this item on the project roadmap or in published plans, if a roadmap exists.
+          required: true
