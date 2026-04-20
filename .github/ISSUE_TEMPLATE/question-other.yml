@@ -1,5 +1,5 @@
 name: Question or other
-description: Important project topics that do not fit other templates, including legal or copyright questions, concerns about other participants, or other information. You may include contact details, image or video links, or other supporting detail in your message.
+description: Topics outside bug/feature templates (legal, copyright, conduct, other). Add your full message below.
 title: "[Other]: "
 labels:
   - question
