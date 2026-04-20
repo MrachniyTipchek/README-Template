@@ -1,0 +1,14 @@
+name: Question or other
+description: Important project topics that do not fit other templates, including legal or copyright questions, concerns about other participants, or other information. You may include contact details, image or video links, or other supporting detail in your message.
+title: "[Other]: "
+labels:
+  - question
+body:
+  - type: textarea
+    id: message
+    attributes:
+      label: Your message
+      description: Describe your question or situation in full. If this is sensitive, share only what you are comfortable posting publicly. You can paste links to images or recordings and include contact details if needed.
+      placeholder: Provide the details maintainers need to understand and respond.
+    validations:
+      required: true
