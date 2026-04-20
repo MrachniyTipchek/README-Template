@@ -17,13 +17,11 @@ body:
     attributes:
       label: Screenshots, screen recording, or logs
       description: Optional but strongly encouraged. Paste error output, stack traces, or relevant log lines. Add links to images or recordings, or describe what you would show in a screenshot.
-      placeholder: Paste logs or traces here. Add URLs or short descriptions for visuals if needed.
-      value: |
+      placeholder: |
         Logs / console / stack trace:
         
 
         Links or notes for screenshots or recordings:
-        
     validations:
       required: false
   - type: textarea
@@ -32,9 +30,9 @@ body:
       label: Steps to reproduce
       description: List the steps so others can reproduce the issue.
       placeholder: |
-        Starting point (screen, URL, command, or state):
-        Actions you take in order:
-        What you observe when the bug appears:
+        1.
+        2.
+        3.
     validations:
       required: true
   - type: textarea
